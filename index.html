@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <back>
+    <div class="wrapper">
+        <div class="form-text">
+            <div class="row">
+                <label for="cislo1">Cislo1:</label><br>
+            <input type="text" name="cislo1" id="cislo1" placeholder="Zadaj číslo 1:">
+            </div>
+            <div class="row">
+                <label for="cislo2">Cislo2:</label><br>
+            <input type="text" name="cislo2" id="cislo2" placeholder="Zadaj číslo 2:">
+            </div>
+            <div class="row">
+                 <select name="menu" id="menu">
+                    <option>+</option>
+                    <option>-</option>
+                    <option>*</option>
+                    <option>/</option>
+                </select>
+            </div> 
+             <button onclick="calculate()">Calculate</button>
+            <div class="row">
+
+                    <h3 id="result">Result:</h3>
+            </div>
+        </div>
+    </div>
+  </back>
+  <script src="app.js"></script>
+</body>
+</html>

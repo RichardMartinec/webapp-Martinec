@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+back{
+    padding: 1rem;
+    background-color: #bada55;
+    border-radius: 5px;
+}
+
+output[type="text"], output[type="number"]{
+    padding: 0.2rem;
+    border: none;
+    box-shadow: 0px 0px 3px #9e9d9d;
+} 
+
+h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+.wrapper{
+    display: flex;
+    gap: 2rem;
+}
+label{
+    margin-bottom: 0.3rem;
+    display: inline-block;
+}
+
+.row{
+    margin-bottom: 1rem;
+}
+p{
+    text-align: right;
+}
+input[type="text"], input[type="number"]{
+    padding: 0.2rem;
+    border: none;
+    box-shadow: 0px 0px 3px #9e9d9d;
+} 
+input[type="submit"]{
+    padding: 0.3rem 0.8rem;
+}
