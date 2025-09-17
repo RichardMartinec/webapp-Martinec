@@ -8,3 +8,5 @@ AI som použil v prípadoch, keď stlačenie tlačidla v HTML nevyvolalo reakciu
 Zmeny urobené pomocou AI som overovali refreshovaním stránky a opätovnými pokusmi o reakciu.
 U JavaScriptu som ešte niektoré chýbajúce znalosti doplnil z online tutoriálov.
 Zvyšok kódu som všakl spravil sám.
+
+GitHub Pages link: https://richardmartinec.github.io/webapp-Martinec/
