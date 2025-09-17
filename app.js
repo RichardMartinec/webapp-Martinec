@@ -39,8 +39,8 @@ function calculate() {
 }
 
 function resetFields() {
-  document.getElementById("num1").value = "";
-  document.getElementById("num2").value = "";
-  document.getElementById("operator").value = "+";
+  document.getElementById("cislo1").value = "";
+  document.getElementById("cislo2").value = "";
+  document.getElementById("menu").value = "+";
   document.getElementById("result").innerText = "Result: ";
 }
